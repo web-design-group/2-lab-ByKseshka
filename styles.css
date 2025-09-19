@@ -6,13 +6,24 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
     background-color: white;
     padding: 30px;
-    border-radius: 10px;
 }
 
+/* Стили для навигации */
+nav ul {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px;
+}
+
+/* ID селектор */
 #main-header {
     background: linear-gradient(135deg, #e6e0f5 0%);
     color: white;
@@ -32,15 +43,14 @@ h1 {
 }
 
 h2 {
-    color: #a990e9;
     font-size: 1.8em;
     margin-top: 30px;
     margin-bottom: 15px;
     padding-left: 10px;
-    border-left: 4px solid #917bc9;
     transition: all 0.3s ease;
 }
 
+/* Анимация */
 h2:hover {
     color: #615386; 
     border-left-color: #917bc9;
@@ -65,6 +75,7 @@ img {
     transition: all 0.3s ease;
 }
 
+/* Анимация */
 img:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -85,36 +96,10 @@ img:hover {
     transition: all 0.3s ease;
 }
 
-.float-left:hover, .float-right:hover {
-    transform: scale(1.05);
-    z-index: 10;
-    position: relative;
-}
-
-.center-image {
-    display: block;
-    margin: 25px auto;
-    transition: all 0.3s ease;
-}
-
 .clearfix {
     clear: both;
 }
 
-/* Стили для навигации */
-nav ul {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 30px;
-}
-
-/* Дополнительный отступ для секции */
 section {
     padding: 15px;
     background-color: #ede8f9;
