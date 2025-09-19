@@ -1,0 +1,124 @@
+body {
+    line-height: 1.6;
+    color: #000000;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #a990e9;
+}
+
+h2 {
+    color: #a990e9;
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 4px solid #917bc9;
+    transition: all 0.3s ease;
+}
+
+h2:hover {
+    color: #615386; 
+    border-left-color: #917bc9;
+    background-color: #e6e0f5;
+    cursor: pointer;  
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.float-left {
+    float: left;
+    margin: 0 25px 15px 0;
+    max-width: 40%;
+    transition: all 0.3s ease;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 15px 25px;
+    max-width: 40%;
+    transition: all 0.3s ease;
+}
+
+.float-left:hover, .float-right:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    position: relative;
+}
+
+.center-image {
+    display: block;
+    margin: 25px auto;
+    transition: all 0.3s ease;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav ul {
+    text-align: center;
+    background-color: #a990e9;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px;
+}
+
+section {
+    padding: 15px;
+    background-color: #ede8f9;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: #d6ccf0;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #000000;
+    font-size: 0.9em;
+}
